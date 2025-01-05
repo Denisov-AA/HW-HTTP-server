@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hw-http-server"
+version = "0.1.0"
+description = "This is a training project. Run it at your own risk."
+authors = ["Andrey Denisov <andrey.denisov@indeed-id.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
